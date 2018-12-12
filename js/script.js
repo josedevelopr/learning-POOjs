@@ -36,3 +36,32 @@ console.log(tabla)
 
 // --------------------------------------------------------------------------------
 
+// Creacion de objeto clienteGym
+const clienteGym =
+{
+    nombre : "Beto",
+    edad :28,
+    peso :85,
+    altura : 175,
+    fechaRegisro : "22/02/2018"
+}
+
+const clienteGym2 =
+{
+    nombre : "Alberto",
+    edad :30,
+    peso :55,
+    altura : 185,
+    fechaRegisro : "22/02/2017"
+}
+
+const clienteGym3 =
+{
+    nombreCompleto : "Alberto Quiroga",
+    edad :"25",
+    fechaRegisro : "22/02/2017"
+}
+
+//console.log(clienteGym3);
+
+const clientes = [clienteGym,clienteGym2]
